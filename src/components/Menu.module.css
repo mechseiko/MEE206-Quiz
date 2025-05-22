@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.article{
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #fff8e1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    width: 80%;
+    padding: 20px;
+    animation: fadeIn 2s linear;
+    font-family: "Inter", sans-serif;
+}
+.articleEvent{
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: hsl(200, 100%, 7%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 35px auto;
+    max-width: 600px;
+    width: 80%;
+    padding: 20px;
+    animation: fadeIn 2s linear;
+    font-family: "Inter", sans-serif;
+}
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+.article h1{
+    color: hsl(200, 50%, 10%);
+    font-size: 30px;
+}
+.article p{
+    margin-bottom: 25px;
+}
+
+
+
+.reviewContainer{
+    text-align: center;
+    margin-top: 50px;
+    margin: 30px auto;
+    max-width: 700px;
+    width: 90%;
+}
+.reviewContainer > h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.copyButton:hover, .feedbackButton:hover {
+    background-color: #ff9800;
+}
+.feedbackHeader {
+    font-size: 2rem;
+    color: coral;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out 1.5s infinite;
+}
+.feedbackTextarea {
+    width: 80%;
+    max-width: 700px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    resize: none;
+    outline: none;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.feedbackButton {
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color:  #6a32da;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

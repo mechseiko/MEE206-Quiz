@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: navy;
+}
+header{
+    margin-bottom: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    padding: 20px;
+    background-color:indigo;
+    text-align: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 100%;
+}
+header h1{
+    font-size: 30px;
+    color: cyan;
+    font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.tipContainer {
+    max-width: 600px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #fff8e1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.tipHeader {
+    font-size: 2rem;
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+.tipDescription {
+    font-size: 1.2rem;
+    color: #123456;
+    margin-bottom: 10px;
+}
+.accountDetails {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+.accountHeader {
+    font-size: 1.5rem;
+    color: #ff9800;
+    margin-bottom: 15px;
+}
+.copyButton {
+    margin-left: 10px;
+    padding: 3px 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #6a32da;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.copyButton:hover{
+    background-color: #ff9800;
+}
+.feedbackHeader {
+    font-size: 1.5rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out 1.5s infinite;
+}

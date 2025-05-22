@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.imgContainer{
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.imageContainer{
+    margin-top: 50px;
+    margin: 30px auto;
+    max-width: 600px;
+    width: 80%;
+}
+.imageContainer h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.imageContainer hr{
+    margin-bottom: 15px;
+}
+.imageContainer .weekImage{
+    width: 60%;
+}
+.weekImage{
+    animation: scales 1s linear 0s infinite;
+    margin-bottom: 25px;
+}
+@keyframes scales{
+    from{
+        transform: scale(0.95);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+.imageContainer .solutionImage{
+    width: 100%;
+    border: 3px solid black;
+}
+.imageContainer img:hover{
+    cursor: pointer;
+}
+.solutions img{
+    margin-bottom: 40px;
+}
+.solutions h1{
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+.space{
+    background-color: black;
+    text-align: center;
+}
+.spaceh1{
+    font-size: 80px;
+    color: white;
+}
+.spaceh2{
+    color: white;
+    font-size: 2;
+    margin: 35px 20px;
+}
+.spaceImg{
+    width: 100%;
+    margin-top: 10px;
+}

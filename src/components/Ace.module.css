@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.aceContainer{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 0px;
+    padding: 30px 50px 0px 50px;
+}
+.aceHeader{
+    color: white;
+    font-size: 100px;
+}
+.aceHeader code{
+    font-weight: 900;
+    font-size: 120px;
+    color: #6a32da;
+    font-family: "Inter", sans-serif;
+}
+.aceContent{
+    color: white;
+    margin-bottom: 40px;
+}
+img[alt = "earth"]{
+    animation: earth 4s linear 0s infinite, onScrollEffectRight 2s linear 0s 1;
+    border-radius: 50%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+} 
+@keyframes earth {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .aceContainer{
+        font-family: "Inter", sans-serif;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-top: 0px;
+        padding: 15px 20px 0px 20px;
+        overflow-x: hidden;
+    }
+    .aceHeader{
+        color: white;
+        font-size: 60px;
+    }
+    .aceHeader code{
+        font-weight: 900;
+        font-size: 80px;
+        color: #6a32da;
+        font-family: "Inter", sans-serif;
+    }
+    .aceContent{
+        color: white;
+        margin-bottom: 40px;
+    }
+    .earthContainer{
+        width: 100%;
+    }
+    img[alt = "earth"]{
+        animation: earth 4s linear 0s infinite, onScrollEffectRight 2s linear 0s 1;
+        border-radius: 50%;
+        height: 90%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 100%;
+    
+    } 
+}

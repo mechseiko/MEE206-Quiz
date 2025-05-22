@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.loginContainer {
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px 20px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #fff8e1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.searchInput {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.exportButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.exportButton:hover {
+    background-color: #45a049;
+}
+
+.viewButton, .deleteButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.viewButton {
+    background-color: #3498db;
+    color: white;
+}
+
+.viewButton:hover {
+    background-color: #2980b9;
+}
+
+.deleteButton {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.deleteButton:hover {
+    background-color: #c0392b;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pageButton {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activePage {
+    background-color: #4caf50;
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.closeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.closeButton:hover {
+    background-color: #c0392b;
+}
+.loginHeader {
+    font-size: 1.5rem;
+    color: #ff9800;
+    margin-bottom: 15px;
+}
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+.loginContainer input{
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.loginBtn{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.emailContainer {
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px 20px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #fff8e1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 50px;
+}
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.emailHeader {
+    font-size: 1.5rem;
+    color: #ff9800;
+    margin-bottom: 15px;
+}
+.emailContainer table{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.emailContainer table, .emailContainer td{
+    border: none;
+    padding: 5px 10px;
+}

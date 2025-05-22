@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.introFlex{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url("../images/question_marks_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-blend-mode: luminosity;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.introText{
+    text-align: center;
+    padding: 15% 10%;
+    animation: fadeIn 1.5s linear;
+}
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+.hero{
+    animation: hero 10s ease 0s infinite;
+    background-image: url("../images/rocket.jpeg");
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%
+}
+@keyframes hero {
+    15%{
+        background-image: url("../images/astronaut.png");
+    }
+    35%{
+        background-image: url("../images/hero.png");
+    }
+    55%{
+        background-image: url("../images/ufc.jpeg");
+    }
+    75%{
+        background-image: url("../images/view-futuristic-space-rocket.jpg");
+    }
+    85%{
+        background-image: url("../images/icon.jpg");
+    }
+}
+.introH1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #1f2f3f;
+}
+.introH1 code{
+    font-weight: 900;
+    font-size: 65px;
+    color: #6a32da;
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    .introFlex{
+        flex-direction: column;
+    }
+    .introText{
+        padding: 7% 5%;
+        margin-bottom: 20px;
+    }
+    .hero{
+        width: 100%;
+        border-top-left-radius: 30%;
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 30%;
+    }
+}
