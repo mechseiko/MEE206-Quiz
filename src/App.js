@@ -10,6 +10,7 @@ import LostInSpace from './components/LostInSpace';
 import Menu from './components/Menu';
 import PastQuestions from './components/PastQuestions';
 import Reviews from './components/Reviews';
+import WeekImages from './components/WeekImages';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/menu/instructions" element={<Instructions />} />
         <Route path="/menu/instructions/test" element={<Test />} />
-        <Route path="menu/past-questions" element={<PastQuestions />} />
-        <Route path="menu/reviews" element={<Reviews />} />
+        <Route path="/menu/past-questions" element={<WeekImages />} />
+        <Route path="/menu/past-questions/:weekId" element={<PastQuestions />} />
+        <Route path="/menu/reviews" element={<Reviews />} />
         <Route path="/tip" element={<Tip />} />
         <Route path="/*" element={<LostInSpace />} />
         <Route path="/mechseiko" element={<AdminEmails />} />
