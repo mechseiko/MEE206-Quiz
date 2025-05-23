@@ -48,3 +48,38 @@
 .solutions h1{
     color: #fff;
 }
+.weekH1{
+    font-size: 4rem;
+    font-family: 'Impact', 'Comic Sans MS', cursive, sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ff99, #ffcc00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+        2px 2px 0 #000,
+        4px 4px 10px #ff00cc,
+        0 0 20px #00ff99;
+    border: 4px dashed #ff00cc;
+    border-radius: 20px;
+    padding: 20px 40px;
+    animation: crazyBounce 1s infinite alternate, rainbow 3s linear infinite;
+    letter-spacing: 0.2em;
+    transform: rotate(-3deg) skewY(2deg);
+    box-shadow: 0 0 30px 10px #ff00cc88, 0 0 10px 2px #00ff99;
+}
+.questionH1{
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    /* background: rgba(255,255,255,0.7); */
+    border-left: 6px solid #ff00cc;
+    padding: 10px 24px;
+    margin: 24px auto 16px auto;
+    width: fit-content;
+    box-shadow: 0 2px 12px 0 #ff00cc22;
+    letter-spacing: 0.08em;
+    border-radius: 0 16px 16px 0;
+    font-weight: 600;
+    transition: background 0.3s;
+}

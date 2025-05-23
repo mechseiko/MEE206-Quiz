@@ -81,7 +81,7 @@ const PastQuestions = () => {
     for(let n=0; n<10; n++){
         solutionImages.push(
             <div>
-                <h1>Question {n+1}</h1>
+                <h1 className={styles.questionH1}>Question {n+1}</h1>
                 <img className={styles.solutionImage} src={arrayImages[week][n]} alt="solution" />
             </div>
         )
@@ -90,7 +90,7 @@ const PastQuestions = () => {
         <div className={styles.imgContainer}> 
             <Header/>
             <div className={styles.imageContainer}>
-                <h1>{week.substring(0,1).toUpperCase()}{week.substring(1,4)} {week.substring(4,6).padStart(2, 0)}</h1>
+                <h1 className={styles.weekH1}>{week.substring(0,1).toUpperCase()}{week.substring(1,4)} {week.substring(4,6).padStart(2, 0)}</h1>
                 <hr />
                 <div className={styles.solutions}>
                     <div>{solutionImages}</div>
