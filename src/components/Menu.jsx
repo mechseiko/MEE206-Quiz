@@ -2,9 +2,6 @@ import React from 'react';
 import Header from './Header';
 import MenuBar from './MenuBar';
 import Copyright from './Copyright';
-// import { Link } from 'react-router-dom';
-// import styles from './Menu.module.css'
-// import ButtonStyle from './ButtonStyle';
 
 function PastQuestions() {
     return (

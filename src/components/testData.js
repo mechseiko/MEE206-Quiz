@@ -238,8 +238,6 @@
 
 
 
-
-
 // WEEK 4
 const testData = [
     {question: "In the figure shown, The 3kg disk D is attached to the end of a cord. The other end of the cord is attached to a ball-and-socket joint located at the center of a platform. If the platform rotates rapidly, and the disk is placed on it and released from rest as shown, determine the time it takes for the disk to reach a speed great enough to break the cord.",
@@ -314,3 +312,83 @@ const testData = [
     },
 ]
 export default testData;
+
+
+
+
+
+
+// // WEEK 5
+// const testData = [
+//     {question: "In the figure shown, The 3kg disk D is attached to the end of a cord. The other end of the cord is attached to a ball-and-socket joint located at the center of a platform. If the platform rotates rapidly, and the disk is placed on it and released from rest as shown, determine the time it takes for the disk to reach a speed great enough to break the cord.",
+//         option1: "1.12s",
+//         option2: "4.05s",
+//         option3: "5.89s",
+//         option4: "6.06s",
+//         correctAns: "5.89s",
+//     },
+//     {question: "In the figure shown, The 60-kg skateboarder coasts down the circular track. If he starts from rest when theta = 0, determine the normal reaction the track exerts on him when theta = 60. Neglect his size for the calculation.",
+//         option1: "1.53 kN",
+//         option2: "7.53 kN",
+//         option3: "1.53 kN",
+//         option4: "2.91 kN",
+//         correctAns: "1.53 kN",
+//     },
+//     {question: "In the figure shown, The smooth 2-kg cylinder C has a pin P through it's center which passes through the slot in arm OA. If the arm is forced to rotate in the vertical plane at a constant rate theta(dot)= 0.5 rad/s, determine the force that the arm exerts on the peg at the instant theta= 60°",
+//         option1: "-0.356 N",
+//         option2: "0.747 N",
+//         option3: "-0.438 N",
+//         option4: "0.182 N",
+//         correctAns: "-0.356 N",
+//     },
+//     {question: "In the figure shown, The 3500-lb automobile travels down the 10° inclined road at a speed of 20 ft/s. If the driver jams on the brakes,causing his wheels to lock, determine how far s the tires skid on the road. The coefficient of kinetic friction between the wheels and the road is mk= 0.5.",
+//         option1: "10.1 ft",
+//         option2: "50.3 ft",
+//         option3: "19.5 ft",
+//         option4: "52.7 ft",
+//         correctAns: "19.5 ft",
+//     },
+//     {question: "In the figure shown, motor M of the hoist shown lifts the 75-lb crate C so that the acceleration of point P is 4 ft/s². Determine the power that must be supplied to the motor at the instant P has a velocity of 2 ft/s.Neglect the mass of the pulley and cable and take e= 0.85.",
+//         option1: "0.170 hp",
+//         option2: "0.104 hp",
+//         option3: "0.240 hp",
+//         option4: "0.887 hp",
+//         correctAns: "0.170 hp",
+//     },
+//     {question: "In the figure shown, When the skier reaches point A along the parabolic path, he has a speed of 6m/s which is increasing at 2m/s². Determine his velocity at this instant.",
+//         option1: "1.2 m/s",
+//         option2: "5.5 m/s",
+//         option3: "6.0 m/s",
+//         option4: "3.9 m/s",
+//         correctAns: "6.0 m/s",
+//     },
+//     {question: "In the figure shown, The boxes travel along the industrial conveyor. If a box starts from rest at A and increases it's speed such that at= (0.2t) m/s², where t is in seconds, determine it's acceleration when it arrives at p.",
+//         option1: "5.54 m/s²",
+//         option2: "1.03 m/s²",
+//         option3: "2.64 m/s²",
+//         option4: "5.36 m/s²",
+//         correctAns: "5.36 m/s²",
+//     },
+//     {question: "In the figure shown, The rod OA rotates in the horizontal plane such that u= (t3) rad. At the same time, the collar B is sliding outward along OA so that r = (100t²) mm. If in both cases t is in seconds, determine the velocity of the collar when t = 1s.",
+//         option1: "361 mm/s",
+//         option2: "205 mm/s",
+//         option3: "413 mm/s",
+//         option4: "185 mm/s",
+//         correctAns: "361 mm/s",
+//     },
+//     {question: "In the figure shown, Determine the speed of block A if block B has an upward speed of 6 ft/s",
+//         option1: "10ft/s Upwards",
+//         option2: "21ft/s Downwards",
+//         option3: "18ft/s Downwards",
+//         option4: "25ft/s Upwards",
+//         correctAns: "18ft/s Downwards",
+//     },
+//     {question: "In the figure shown, At the instant shown cars A and B are traveling with speeds of 18 m/s and 12 m/s, respectively. Also at this instant, A has a decrease in speed of 2 m/s², and B has an increase in speed of 3 m/s².Determine the velocity of car B with respect to car A.",
+//         option1: "2.58 m/s",
+//         option2: "9.69 m/s",
+//         option3: "2.60 m/s",
+//         option4: "3.18 m/s",
+//         correctAns: "9.69 m/s",
+//     },
+// ]
+// export default testData;
